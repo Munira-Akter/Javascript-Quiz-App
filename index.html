@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Quiz App</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="assests/css/all.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="assests/css/style.css" />
+    <style></style>
+</head>
+
+<body>
+    <section>
+        <div class="sign-up shadow-lg text-center">
+            <div class="mid-text">
+                <h1>Welcome to quiz app</h1>
+                <p>Test your knowledge with us!</p>
+                <from>
+                    <input type="text" name="" id="" placeholder="Enter your name first" /><br />
+                    <br />
+                    <input type="reset" value="Reset" class="btn btn-sm btn-outline-info sec-btn" />
+                    <input type="submit" value="Continue" class="btn btn-sm btn-info first-btn" />
+                </from>
+            </div>
+        </div>
+
+        <div class="reg shadow-lg text-center">
+            <div class="mid-text">
+                <h1>Registration Complete</h1>
+                <p>
+                    Do you want to start your exam?
+                    <span data-toggle="tooltip" data-placement="top" title="Every question you get 1 mins to answer,Once you select your answer you will not able to change it">
+              <i class="fa fa-info-circle"></i>
+            </span>
+                </p>
+
+                <button class="btn btn-sm btn-outline-info">Back</button>
+                <button class="btn btn-sm btn-info">Continue Exam</button>
+            </div>
+        </div>
+
+        <div class="quiz shadow-lg px-5">
+            <div class="mid-text">
+                <h2 class="fw-bolder">
+                    1. What's your name?
+                    <span class="float-right pt-3" style="font-size: 14px">60</span>
+                </h2>
+                <br />
+
+                <ul>
+                    <li><span>A</span> Munira Akter</li>
+                    <li><span>B</span> Munira Akter</li>
+                    <li><span>C</span> Munira Akter</li>
+                    <li><span>D</span> Munira Akter</li>
+                </ul>
+                <br />
+                <div class="float-right">
+                    <button class="btn btn-sm btn-outline-info">Back</button>
+                    <button class="btn btn-sm btn-info" id="next_ques" disabled>
+              Next Question
+            </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="result shadow-lg px-5 text-center">
+            <div class="mid-text">
+                <img src="assests/media/giphy.gif" height="200px" alt="" />
+                <p>Be ready to fail 'cause only then you are ready to succeed</p>
+                <p>You got 8 out of 10</p>
+                <div class="">
+                    <button class="btn btn-sm btn-outline-info">ReTake</button>
+                    <button class="btn btn-sm btn-info" id="next_ques">Home</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Optional JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="assests\js\script.js"></script>
+</body>
+
+</html>
