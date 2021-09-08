@@ -1,5 +1,5 @@
 body {
-    background-image: url("../media/pexels-photo-4245826.jpeg");
+    background-image: url("../media/bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -23,7 +23,7 @@ ol {
     height: 400px;
     transform: translate(-50%, -50%);
     width: 600px;
-    display: none;
+    display: block;
 }
 
 .reg {
@@ -45,7 +45,7 @@ ol {
     height: 400px;
     transform: translate(-50%, -50%);
     width: 600px;
-    display: block;
+    display: none;
 }
 
 .quiz {
@@ -53,7 +53,7 @@ ol {
     top: 50%;
     left: 50%;
     background-color: rgba(255, 255, 255, 0.85);
-    height: 500px;
+    height: 600px;
     transform: translate(-50%, -50%);
     width: 600px;
     display: none;
@@ -64,6 +64,26 @@ ol {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.question.done {
+    pointer-events: none;
+}
+
+.mid-text ul li.done {
+    pointer-events: none;
+}
+
+.mid-text ul li.success {
+    background-color: rgba(82, 236, 68, 0.3);
+}
+
+.mid-text ul li.danger {
+    background-color: rgba(253, 45, 45, 0.3);
+}
+
+.mid-text .submit {
+    display: none;
 }
 
 .sign-up h1 {

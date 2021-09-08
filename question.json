@@ -1,0 +1,45 @@
+[{
+        "category": "Science: Computers",
+        "difficulty": "hard",
+        "question": "How many Hz does the video standard PAL support?",
+        "correct_answer": "50",
+        "answers": ["59", "60", "25", "50"]
+    },
+
+    {
+        "category": "Science: Computers",
+        "difficulty": "hard",
+        "question": "Who is the original author of the realtime physics engine called PhysX?",
+        "correct_answer": "NovodeX",
+        "answers": ["Ageia", "Nvidia", "AMD", "NovodeX"]
+    },
+
+    {
+        "category": "Science: Computers",
+        "difficulty": "hard",
+        "question": "America Online (AOL) started out as which of these online service providers?",
+        "correct_answer": "Quantum Link",
+        "answers": ["Quantum Link", "CompuServe", "Prodigy", "GEnie"]
+    },
+
+    {
+        "category": "Science: Computers",
+        "difficulty": "hard",
+        "question": "Which of these is not a key value of Agile software development?",
+        "correct_answer": "Comprehensive documentation",
+        "answers": [
+            "Individuals and interactions",
+            "Customer collaboration",
+            "Responding to change",
+            "Comprehensive documentation"
+        ]
+    },
+
+    {
+        "category": "Science: Computers",
+        "difficulty": "hard",
+        "question": "Which of the following computer components can be built using only NAND gates?",
+        "correct_answer": "ALU",
+        "answers": ["ALU", "CPU", "RAM", "Register"]
+    }
+]

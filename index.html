@@ -27,12 +27,12 @@
             <div class="mid-text">
                 <h1>Welcome to quiz app</h1>
                 <p>Test your knowledge with us!</p>
-                <from>
-                    <input type="text" name="" id="" placeholder="Enter your name first" /><br />
+                <form>
+                    <input type="text" name="name" value="" id="" placeholder="Enter your name first" /><br />
                     <br />
-                    <input type="reset" value="Reset" class="btn btn-sm btn-outline-info sec-btn" />
+                    <input type="reset" value="Reset" class="reset btn btn-sm btn-outline-info sec-btn" />
                     <input type="submit" value="Continue" class="btn btn-sm btn-info first-btn" />
-                </from>
+                </form>
             </div>
         </div>
 
@@ -46,53 +46,46 @@
             </span>
                 </p>
 
-                <button class="btn btn-sm btn-outline-info">Back</button>
-                <button class="btn btn-sm btn-info">Continue Exam</button>
+                <button class="btn btn-sm btn-outline-info back">Back</button>
+                <button class="btn btn-sm btn-info continue">Continue Exam</button>
             </div>
         </div>
 
         <div class="quiz shadow-lg px-5">
             <div class="mid-text">
-                <h2 class="fw-bolder">
-                    1. What's your name?
-                    <span class="float-right pt-3" style="font-size: 14px">60</span>
-                </h2>
-                <br />
+                <span class="float-right pt-3 timmer" style="font-size: 14px"></span>
+                <div class="question"></div>
 
-                <ul>
-                    <li><span>A</span> Munira Akter</li>
-                    <li><span>B</span> Munira Akter</li>
-                    <li><span>C</span> Munira Akter</li>
-                    <li><span>D</span> Munira Akter</li>
-                </ul>
                 <br />
                 <div class="float-right">
-                    <button class="btn btn-sm btn-outline-info">Back</button>
-                    <button class="btn btn-sm btn-info" id="next_ques" disabled>
+                    <button class="btn btn-sm btn-outline-info back">Back</button>
+                    <button class="btn btn-sm btn-info next_btn" disabled="disabled">
               Next Question
             </button>
+
+                    <button class="btn btn-sm btn-info submit">Submit</button>
                 </div>
             </div>
         </div>
 
         <div class="result shadow-lg px-5 text-center">
             <div class="mid-text">
-                <img src="assests/media/giphy.gif" height="200px" alt="" />
-                <p>Be ready to fail 'cause only then you are ready to succeed</p>
+                <img src="assests/media/giphy.gif " height="200px " alt=" " />
+                <!-- <p>Be ready to fail 'cause only then you are ready to succeed</p> -->
                 <p>You got 8 out of 10</p>
                 <div class="">
-                    <button class="btn btn-sm btn-outline-info">ReTake</button>
-                    <button class="btn btn-sm btn-info" id="next_ques">Home</button>
+                    <button class="btn btn-sm btn-outline-info re-take">ReTake</button>
+                    <button class="btn btn-sm btn-info home" id=" ">Home</button>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Optional JavaScript -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="assests\js\script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
+    <script src="assests\js\script.js "></script>
 </body>
 
 </html>
